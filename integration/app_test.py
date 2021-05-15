@@ -3,5 +3,5 @@ import requests
 import pytest
 
 def test():
-    response = requests.get(url="http://localhost:800" + "/healthz")
+    response = requests.get(url="http://localhost:5000" + "/healthz")
     assert response.status_code == 200

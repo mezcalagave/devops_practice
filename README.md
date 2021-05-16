@@ -1,3 +1,4 @@
+[![Deploy and Test](https://github.com/mezcalagave/devops_practice/actions/workflows/main.yml/badge.svg)](https://github.com/mezcalagave/devops_practice/actions/workflows/main.yml)
 ##  devops_practice
 
 ### 1. 소개

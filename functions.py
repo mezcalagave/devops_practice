@@ -10,3 +10,6 @@ def multiply(x, y):
 
 def divide(x, y):
     return int(x) / int(y)
+
+def sqrt(x):
+    return int(x)^0.5

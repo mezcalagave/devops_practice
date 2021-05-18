@@ -59,6 +59,16 @@ def division():
         response = jsonify("BAD REQUSET ERROR")
     return response
 
+@app.route("/sqrt", methods=["GET"])
+def square_root():
+    x = request.args.get("x")
+    if x.isdigit():
+        result = sqrt(x)
+        tmp_result = f"{x}^1/2 = {result}"
+        response = jsonify(tmp_result)
+    else:
+        response = jsonify("BAD REQUSET ERROR")
+    return response
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000', debug=True)
